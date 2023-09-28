@@ -1,0 +1,49 @@
+
+.survey-form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #F3BE26;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the form labels */
+  .survey-form-container label {
+    font-weight: bold;
+    margin-right: 8px;
+  }
+  
+  /* Style the input fields */
+  .survey-form-container input,
+  .survey-form-container textarea {
+    width: 100%; /* Make the inputs fill the container width */
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #090909; /* Add a border */
+    border-radius: 4px;
+    background-color: #f8f5f5; /* Input background color */
+  }
+  
+  /* Style the radio buttons and checkboxes */
+  .survey-form-container input[type="radio"],
+  .survey-form-container input[type="checkbox"] {
+    margin: 5px;
+  }
+  
+  /* Style the submit button */
+  .survey-form-container button {
+    background-color: #007bff; /* Button background color */
+    color: #0e0c0c; /* Button text color */
+    border: none;
+    width: 100%; 
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }s
+  
+  /* Add hover effect to the submit button */
+  .survey-form-container button:hover {
+    background-color: #09b022; /* Hover background color */
+  }
+  
